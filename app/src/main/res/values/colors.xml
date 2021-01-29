@@ -10,4 +10,5 @@
     <color name="gray">#010101</color>
     <color name="red">#f84245</color>
     <color name="purple">#1b0432</color>
+    <color name="dashboard_heading">#421339</color>
 </resources>

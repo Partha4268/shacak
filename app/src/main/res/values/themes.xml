@@ -22,4 +22,16 @@
     <style name="Theme.Shacak.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.Shacak.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="LoginTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">#111</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="android:radius">10dp</item>
+        <item name="hintTextColor">@color/gray</item>
+    </style>
+
+    <style name="RangerStyle" parent="Widget.MaterialComponents.Tooltip">
+        <item name="trackColor">@color/design_default_color_on_primary</item>
+    </style>
+
 </resources>

@@ -13,9 +13,19 @@
 
     <fragment
         android:id="@+id/nav_chat"
-        android:name="com.ls.shacak.SearchFragment"
+        android:name="com.ls.shacak.ChatFragment"
         android:label="Chat"
-        tools:layout="@layout/fragment_search" />
+        tools:layout="@layout/fragment_chat" />
+
+
+    <fragment
+        android:id="@+id/nav_network"
+        android:name="com.ls.shacak.NetworkFragment"
+        android:label=""
+        tools:layout="@layout/fragment_network" />
+
+
+
 
     <fragment
         android:id="@+id/nav_search"
@@ -23,9 +33,5 @@
         android:label="Search"
         tools:layout="@layout/fragment_search" />
 
-    <fragment
-        android:id="@+id/nav_network"
-        android:name="com.ls.shacak.NetworkFragment"
-        android:label="Network"
-        tools:layout="@layout/fragment_network" />
+
 </navigation>

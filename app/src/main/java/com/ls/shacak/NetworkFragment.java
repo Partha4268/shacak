@@ -7,6 +7,10 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
+
+import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -14,7 +18,9 @@ import android.view.ViewGroup;
  * create an instance of this fragment.
  */
 public class NetworkFragment extends Fragment {
-
+    ArrayList<String> typeList;
+    Spinner view_type_spinner;
+    ArrayAdapter view_type_adapter;
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -60,6 +66,17 @@ public class NetworkFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View root =inflater.inflate(R.layout.fragment_network, container, false);
+        initView(root);
         return  root;
+    }
+
+    private void initView(View root){
+        view_type_spinner = root.findViewById(R.id.spinner_view_type);
+        typeList = new ArrayList<>();
+        typeList.add("People Viewed");
+        view_type_adapter = new ArrayAdapter(getActivity(),android.R.layout.simple_spinner_dropdown_item,typeList);
+
+        view_type_spinner.setAdapter(view_type_adapter);
+
     }
 }
