@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/search"
+            android:title="Search" />
+        <item
+            android:id="@+id/nav_network"
+            android:icon="@drawable/network"
+            android:title="Network" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/chat"
+            android:title="Chat" />
+
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/profile"
+                    android:title="Profile" />
+
+                <item
+                    android:id="@+id/nav_partner"
+                    android:icon="@drawable/partner"
+                    android:title="Partner Preference" />
+
+                <item
+                    android:id="@+id/nav_subscription"
+                    android:icon="@drawable/subscription"
+                    android:title="Subscription" />
+
+                <item
+                    android:id="@+id/nav_payment"
+                    android:icon="@drawable/payment"
+                    android:title="Payment Settings" />
+
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/info"
+                    android:title="About Shacaka Roll" />
+
+                <item
+                    android:id="@+id/nav_faq"
+                    android:icon="@drawable/faq"
+                    android:title="FAQ" />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout"
+                    android:title="Logout" />
+
+
+            </group>
+        </menu>
+    </item>
+
+</menu>

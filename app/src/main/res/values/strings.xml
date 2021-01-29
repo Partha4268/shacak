@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Shacak</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="the_passage_txt_full">The passage is attributed to an unknown setter in the 15th century who is thought to have bled parts of
+    Cicero\'s De Finibus Bonorum</string>
+
+
+
+    <string name="the_passage_txt_short">The passage is attributed to an unknown setter in the 15th century who is thought to...</string>
+    <string name="loreum_ipsum">Lorem ipsum dolor sit amet elit, consectetur adipiscing . Cras </string>
+</resources>
